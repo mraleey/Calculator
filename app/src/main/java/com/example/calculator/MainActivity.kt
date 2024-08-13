@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
                         expression = expression.dropLast(1) + button.text
                         input.text = expression
                     }
-
                     else -> {
                         expression += button.text
                         input.text = expression
