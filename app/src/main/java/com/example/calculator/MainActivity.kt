@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         var input = findViewById<TextView>(R.id.input)
         var result = findViewById<TextView>(R.id.result)
-
         val buttons = listOf(
             findViewById<Button>(R.id.btn0),
             findViewById<Button>(R.id.btn1),
